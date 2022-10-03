@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "on-your-feet"
+version = "0.1.0"
+description = ""
+authors = ["watchstep <cathy033077@gmail.com>"]
+readme = "README.md"
+packages = [{include = "on_your_feet"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ipykernel = "^6.16.0"
+numpy = "^1.23.3"
+torch = "^1.12.1"
+kaggle = "^1.5.12"
+torchvision = "^0.13.1"
+matplotlib = "^3.6.0"
+summary = "^0.2.0"
+torchsummary = "^1.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
